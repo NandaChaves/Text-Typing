@@ -1,2 +1,2 @@
 # Text-Typing
-Animated text typing animation using only CSS and HTML
+Text typing animation using only CSS and HTML
