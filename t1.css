@@ -1,0 +1,237 @@
+body{
+	margin:0;
+    background: #ff005c;
+}
+
+.css-typing  {
+	  font-family: 'Gloria Hallelujah', cursive;
+	  text-transform: uppercase;
+	  font-weight:700;
+	  font-size:30px;
+	  text-align: center;
+	  height:290px;
+	  display: flex;
+	  justify-content: center;
+	  align-items:center;
+	  font-weight:700;
+	  text-transform: uppercase;
+	  
+}
+
+.css-typing p {
+  white-space: nowrap;
+  overflow: hidden;
+  align-items:center;
+}
+
+
+.css-typing p:nth-child(1) {
+	position: absolute;	
+	width: 100%;
+    animation: typing 5s linear normal;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+   
+}
+
+.css-typing p:nth-child(2) {
+  top:28%;
+  width: 100%;
+  opacity: 0;
+  -webkit-animation: typing2 5s linear normal;
+  animation: typing2 5s linear normal;
+  -webkit-animation-delay: 2s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.css-typing p:nth-child(3) {
+  top:37%;
+  width: 100%;
+  opacity: 0;
+  -webkit-animation: typing3 5s linear normal;
+  animation: typing3 5s linear normal;
+  -webkit-animation-delay: 4s;
+  animation-delay: 8s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  position: absolute;
+  white-space: nowrap;
+  
+}
+
+.css-typing p:nth-child(4) {
+  top:46%;
+  width: 100%;
+  opacity: 0;
+  -webkit-animation: typing4 5s linear normal;
+  animation: typing4 5s linear normal;
+  -webkit-animation-delay: 8s;
+  animation-delay: 12s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  position: absolute;
+  white-space: nowrap;
+  
+}
+
+.css-typing p:nth-child(5) {
+  top:55%;
+  width: 100%;
+  opacity: 0;
+  -webkit-animation: typing5 5s linear normal;
+  animation: typing5 5s linear normal;
+  -webkit-animation-delay: 12s;
+  animation-delay: 15s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  position: absolute;
+  white-space: nowrap;
+  
+  
+}
+
+.link a{
+	text-decoration:none;
+	color:black;
+}
+
+	
+/*
+ animation-fill-mode: forwards;:  depois de acabar a animação ele deve aplicar as propriedades do 100%
+ animation-fill-mode: backwards;: antes de começar a animação ele já deve aplicar as propriedades no 0%
+ animation-fill-mode: both;: uma junção do forwards e backwards */
+
+@keyframes typing{
+  0% {
+    width: 0;
+  }
+  
+}
+
+
+@-webkit-keyframes typing {
+  0% {
+    width: 0;
+  }
+  
+}
+
+
+@keyframes typing2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+  @-webkit-keyframes typing2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes typing3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+  @-webkit-keyframes typing3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+  
+  
+@keyframes typing4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+  @-webkit-keyframes typing4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes typing5 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+  @-webkit-keyframes typing5 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+  
+ 
